@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{C4C81764-C8D2-452C-99AA-D5903BC86829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{67E128BF-C4C2-4CAE-AD18-5A8A2C704F50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{0BB250EE-A3F0-40A8-A089-059776AD2C14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicaretApp.MVC", "eTicaretApp.MVC\eTicaretApp.MVC.csproj", "{F6677278-F74C-41BE-AB6A-FDF23142B602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicaretApp.DataAccessLayer", "Data\eTicaretApp.DataAccessLayer\eTicaretApp.DataAccessLayer.csproj", "{4D61ABCB-173E-46F8-B4D1-A8DF64C4B8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicaretApp.EntityLayer", "Models\eTicaretApp.EntityLayer\eTicaretApp.EntityLayer.csproj", "{A46B3576-C690-42BE-9630-D68915AC0B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6677278-F74C-41BE-AB6A-FDF23142B602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6677278-F74C-41BE-AB6A-FDF23142B602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6677278-F74C-41BE-AB6A-FDF23142B602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6677278-F74C-41BE-AB6A-FDF23142B602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D61ABCB-173E-46F8-B4D1-A8DF64C4B8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D61ABCB-173E-46F8-B4D1-A8DF64C4B8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D61ABCB-173E-46F8-B4D1-A8DF64C4B8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D61ABCB-173E-46F8-B4D1-A8DF64C4B8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46B3576-C690-42BE-9630-D68915AC0B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46B3576-C690-42BE-9630-D68915AC0B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46B3576-C690-42BE-9630-D68915AC0B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46B3576-C690-42BE-9630-D68915AC0B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6677278-F74C-41BE-AB6A-FDF23142B602} = {0BB250EE-A3F0-40A8-A089-059776AD2C14}
+		{4D61ABCB-173E-46F8-B4D1-A8DF64C4B8F2} = {67E128BF-C4C2-4CAE-AD18-5A8A2C704F50}
+		{A46B3576-C690-42BE-9630-D68915AC0B5A} = {C4C81764-C8D2-452C-99AA-D5903BC86829}
+	EndGlobalSection
+EndGlobal
